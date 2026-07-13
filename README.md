@@ -46,11 +46,7 @@ portfolio2/
    (Or simply double-click `index.html` to open it directly in a browser.)
 
 ### Deploy
-- **GitHub Pages**: Push this folder to a GitHub repo, then enable Pages in
-  **Settings → Pages** (source: main branch).
-- **Netlify**: Drag and drop the `portfolio2` folder onto
-  [netlify.com/drop](https://app.netlify.com/drop) for an instant live link.
-- **Render**: https://bhavana-portfolio-uwge.onrender.com
+**Render**: https://bhavana-portfolio-uwge.onrender.com
 
 ## Customization
 - **Colors & fonts**: edit the `:root` variables at the top of `style.css`.
