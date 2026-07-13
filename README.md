@@ -5,7 +5,7 @@ undergraduate, technical skills, projects, experience, education, and contact
 details.
 
 ## Live Demo
-_Add your deployed link here once hosted, e.g. GitHub Pages / Netlify / Vercel._
+https://bhavana-portfolio-uwge.onrender.com
 
 ## Features
 - Responsive layout that works across desktop, tablet, and mobile
@@ -35,12 +35,6 @@ portfolio2/
 └── README.md          # Project documentation
 ```
 
-## Getting Started
-
-### Prerequisites
-- [VS Code](https://code.visualstudio.com/) (or any code editor)
-- [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (recommended, for auto-reload)
-
 ### Run Locally
 1. Clone or download this repository.
    ```bash
@@ -56,7 +50,7 @@ portfolio2/
   **Settings → Pages** (source: main branch).
 - **Netlify**: Drag and drop the `portfolio2` folder onto
   [netlify.com/drop](https://app.netlify.com/drop) for an instant live link.
-- **Vercel**: Import the repo at [vercel.com/new](https://vercel.com/new) and deploy.
+- **Render**: https://bhavana-portfolio-uwge.onrender.com
 
 ## Customization
 - **Colors & fonts**: edit the `:root` variables at the top of `style.css`.
