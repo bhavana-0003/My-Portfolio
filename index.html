@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bandaru Bhavana Sri - Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar__inner">
+    <div class="logo">BBS</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<!-- ===== HOME / HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero__inner">
+    <h1>BANDARU BHAVANA SRI</h1>
+    <p class="hero__role">Artificial Intelligence &amp; Machine Learning Student</p>
+    <p class="hero__desc">
+      Motivated AIML undergraduate with strong communication, leadership, and analytical
+      skills. Passionate about cloud technologies, AWS solutions, and building intelligent,
+      data-driven applications — seeking opportunities in machine learning and technology consulting.
+    </p>
+    <div class="hero__btns">
+      <a href="#projects" class="btn btn--filled">View My Work</a>
+      <a href="#contact" class="btn btn--outline">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section__title">About Me</h2>
+    <div class="section__underline"></div>
+
+    <div class="about__grid">
+      <p class="about__text">
+        I'm an AI/ML undergraduate at Bannari Amman Institute of Technology, currently
+        maintaining a CGPA of 8.05/10. I enjoy collaborating with teams, presenting technical
+        concepts clearly, and engaging with diverse stakeholders through academic projects and
+        college activities. Beyond machine learning, I'm developing my skills in cloud
+        technologies and AWS, with an eye toward roles that blend problem-solving,
+        relationship-building, and technology consulting.
+      </p>
+      <div class="about__facts">
+        <div class="fact-card">
+          <span class="fact-card__label">Location</span>
+          <span class="fact-card__value">Egmore, Tamil Nadu, India</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-card__label">Email</span>
+          <span class="fact-card__value">bhavanasri0003@gmail.com</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-card__label">Phone</span>
+          <span class="fact-card__value">+91 90254 82382</span>
+        </div>
+        <div class="fact-card">
+          <span class="fact-card__label">Languages</span>
+          <span class="fact-card__value">English, Tamil, Telugu, Hindi, German (basic)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section section--tint" id="skills">
+  <div class="container">
+    <h2 class="section__title">Technical Skills</h2>
+    <div class="section__underline"></div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3 class="skill-card__title"><span class="skill-card__icon">&lt;/&gt;</span> Programming</h3>
+        <ul class="check-list">
+          <li>Python</li>
+          <li>C</li>
+          <li>SQL</li>
+          <li>JavaScript</li>
+          <li>HTML / CSS</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-card__title"><span class="skill-card__icon">🛠</span> Libraries &amp; Tools</h3>
+        <ul class="check-list">
+          <li>Pandas &amp; NumPy</li>
+          <li>Scikit-learn</li>
+          <li>TensorFlow</li>
+          <li>Matplotlib &amp; Seaborn</li>
+          <li>Streamlit</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3 class="skill-card__title"><span class="skill-card__icon">🧠</span> AI/ML &amp; Other</h3>
+        <ul class="check-list">
+          <li>Machine Learning</li>
+          <li>Content-Based Recommendation Systems</li>
+          <li>AWS (Learning)</li>
+          <li>MongoDB</li>
+          <li>UI/UX Principles</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="section__title">Projects</h2>
+    <div class="section__underline"></div>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-card__bar"></div>
+        <div class="project-card__body">
+          <div class="project-card__head">
+            <h3>FilmFinder</h3>
+            <a href="https://filmfinder-nxtt.onrender.com/" target="_blank" rel="noopener" class="live-badge">● Live Demo</a>
+          </div>
+          <p>
+            A content-based movie recommendation system built with Python, Streamlit, and
+            Scikit-learn. Recommends movies by analyzing genres, cast, director, keywords, and
+            descriptions, then enriches results with posters, IMDb ratings, and plot summaries
+            from the OMDb API.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">Streamlit</span>
+            <span class="pill">Scikit-learn</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">OMDb API</span>
+          </div>
+          <p class="key-features"><strong>Key Features:</strong> TF-IDF vectorization and cosine similarity for content-based matching, live posters and metadata, and a responsive Streamlit interface trained on the TMDB 5000 Movies Dataset.</p>
+          <div class="project-card__links">
+            <a href="https://filmfinder-nxtt.onrender.com/" target="_blank" rel="noopener" class="btn btn--filled btn--sm">Live Demo</a>
+            <a href="https://github.com/bhavana-0003/Movie_Recommendation_System" target="_blank" rel="noopener" class="btn btn--outline btn--sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card__bar"></div>
+        <div class="project-card__body">
+          <div class="project-card__head">
+            <h3>House Price Prediction</h3>
+          </div>
+          <p>
+            A machine learning regression system that predicts house prices based on features
+            like area, location, and number of rooms, built end-to-end from raw data to
+            evaluated predictions.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">Scikit-learn</span>
+            <span class="pill">Linear Regression</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+          </div>
+          <p class="key-features"><strong>Key Features:</strong> Data cleaning and feature selection with Pandas and NumPy, and a trained Linear Regression model evaluated for accuracy on unseen data.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="section section--tint" id="experience">
+  <div class="container">
+    <h2 class="section__title">Experience &amp; Leadership</h2>
+    <div class="section__underline"></div>
+
+    <div class="exp-card">
+      <div class="exp-card__head">
+        <h3>Machine Learning Intern</h3>
+        <span class="exp-card__date">July - August 2025 · Online</span>
+      </div>
+      <p class="exp-card__org">Technohacks Solutions Pvt. Ltd.</p>
+      <ul class="dash-list">
+        <li>Performed data preprocessing by handling missing values, normalizing data, and preparing datasets for ML models.</li>
+        <li>Conducted Exploratory Data Analysis (EDA) to identify patterns, relationships, and insights.</li>
+        <li>Implemented Linear Regression models using Scikit-learn for prediction and performance analysis.</li>
+        <li>Evaluated model accuracy using R² Score and Mean Squared Error (MSE).</li>
+        <li>Visualized predictions, trends, and residuals using Matplotlib and Seaborn.</li>
+      </ul>
+    </div>
+
+    <div class="exp-two-col">
+      <div class="fact-card fact-card--list">
+        <span class="fact-card__label">Leadership</span>
+        <ul class="dash-list">
+          <li>Team Captain, college Project Based Learning team</li>
+          <li>Sports Captain (house) &amp; Sports Secretary (school)</li>
+          <li>Organised events for college clubs, including Code Circle Club</li>
+        </ul>
+      </div>
+      <div class="fact-card fact-card--list">
+        <span class="fact-card__label">Certifications &amp; Achievements</span>
+        <ul class="dash-list">
+          <li>Introduction to Industry 4.0 &amp; IIoT - NPTEL</li>
+          <li>AI Fundamentals - Cisco</li>
+          <li>Salesforce Agentic AI Agentblazer - Level 1 (Champion), Level 2 (Innovator)</li>
+          <li>Oracle Cloud Infrastructure Foundations Associate</li>
+          <li>Introduction to Artificial Intelligence - Infosys</li>
+          <li>Introduction to Prompt Engineering - SkillUp</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section" id="education">
+  <div class="container">
+    <h2 class="section__title">Education</h2>
+    <div class="section__underline"></div>
+
+    <div class="edu-card">
+      <div class="edu-card__head">
+        <h3>B.Tech, Artificial Intelligence and Machine Learning</h3>
+        <span class="edu-card__date">2024 - 2028</span>
+      </div>
+      <p class="edu-card__org">Bannari Amman Institute of Technology</p>
+      <p class="edu-card__meta">CGPA: 8.05 / 10</p>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-card__head">
+        <h3>12th Grade</h3>
+        <span class="edu-card__date">2023 - 2024</span>
+      </div>
+      <p class="edu-card__org">CSI Ewart Higher Secondary School</p>
+      <p class="edu-card__meta">Percentage: 90 / 100</p>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-card__head">
+        <h3>10th Grade</h3>
+        <span class="edu-card__date">2021 - 2022</span>
+      </div>
+      <p class="edu-card__org">CSI Ewart Higher Secondary School</p>
+      <p class="edu-card__meta">Percentage: 90.4 / 100</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section section--tint" id="contact">
+  <div class="container">
+    <h2 class="section__title">Contact</h2>
+    <div class="section__underline"></div>
+    <p class="contact__lead">Open to opportunities in ML engineering, data analysis, and cloud-focused development. Feel free to reach out.</p>
+
+    <div class="contact-grid">
+      <a href="mailto:bhavanasri0003@gmail.com" class="contact-card">
+        <span class="contact-card__label">Email</span>
+        <span class="contact-card__value">bhavanasri0003@gmail.com</span>
+      </a>
+      <a href="tel:+919025482382" class="contact-card">
+        <span class="contact-card__label">Phone</span>
+        <span class="contact-card__value">+91 90254 82382</span>
+      </a>
+      <a href="https://www.linkedin.com/in/bhavana-sri-bandaru" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-card__label">LinkedIn</span>
+        <span class="contact-card__value">bhavana-sri-bandaru</span>
+      </a>
+      <a href="https://github.com/bhavana-0003" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-card__label">GitHub</span>
+        <span class="contact-card__value">bhavana-0003</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Bandaru Bhavana Sri. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
